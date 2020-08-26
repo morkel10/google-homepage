@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Google homepage recreation</title>
+        <style>
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+text-decoration: none;
+color: #5f6368;
+}
+
+.header-left {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: black;
+}
+
+.header-right {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.nav-links {
+    padding-right: 10px;
+
+}
+
+.google-logo {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 200px;
+margin-bottom: 20px;
+}
+
+.google-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+#searchbar {
+    height: 34px;
+    width: 450px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: solid 1px;
+    border-color: #e4e4e4;
+height: 100px;
+width: 100%;
+background-color: #f2f2f2;
+font-size: 15px;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px;
+    border-color: #e4e4e4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #5f6368;
+}
+
+.footer2-left {
+    position: fixed;
+color:#5f6368;
+left: 30px;
+}
+
+.footer2-right {
+    position: fixed;
+right: 30px;
+color:#5f6368;
+}
+
+.nav-links-bottom {
+    padding-right: 20px;
+}
+
+#UK {
+    padding-left: 30px;
+    color: #5f6368;
+
+}
+        </style>
+    </head>
+
+<body>
+
+    <header>
+        <div class="header-left">
+<a href="https://about.google/" class="nav-links">About</a>
+<a href="https://store.google.com" class="nav-links">Store</a>
+    </div>
+<div class="header-right">
+            <a href="https://mail.google.com" class="nav-links">Gmail</a>
+            <a href="https://www.google.co.uk/imghp" class="nav-links">Images</a>
+            </div>
+</header>
+
+    <div class="google-logo">
+<img id="google-logo" alt="Google logo" src="images/googlelogo.png">
+    </div>
+
+<div class="google-form">
+
+<form>
+    <input type="search" id="searchbar" name="searchbar" minlength= 1>
+    </form>
+</div>
+<div class="buttons">
+    <button class="buttons" id="searchbutton">Google Search</button>
+    <button class="buttons" id="luckybutton">I'm Feeling Lucky</button>
+</div>
+
+<footer>
+    <div class="footer">
+<div class="footer1">
+<span class="nav-links" id="UK">United Kingdom</span>
+</div>
+
+<div class="footer2">
+<div class="footer2-left">
+<a href="https://ads.google.com" class="nav-links-bottom">Advertising</a>
+<a href="https://www.google.com/services/" class="nav-links-bottom">Business</a>
+<a href="https://www.google.com/search/howsearchworks/" class="nav-links-bottom">How Search works</a>
+</div>
+<div class="footer2-right">
+<a href="https://policies.google.com/privacy" class="nav-links-bottom">Privacy</a>
+<a href="https://policies.google.com/terms" class="nav-links-bottom">Terms</a>
+<a href="https://www.google.com/preferences" class="nav-links-bottom">Preferences</a>
+
+
+
+</div>
+</div>
+
+</footer>
+</body>
+</html>
